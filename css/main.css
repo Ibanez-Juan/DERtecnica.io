@@ -1,3 +1,5 @@
+/* Formatações gerais
+-------------------------- */
 html, body, #home {
     height: 100%;
     overflow-x: hidden;
@@ -10,12 +12,11 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-
 /* Barra de navegação
---------------------------*/
+--------------------------- */
 nav.navbar-transparent {
-    padding: 15px 0px;
-    background: rgba(11, 2, 56, 0.6)
+    padding: 5px 0px;
+    background: rgba(11, 2, 56, 0.7);
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -27,12 +28,12 @@ nav.navbar-transparent {
 }
 
 .navbar-light .navbar-toggle {
-    color: rgba(255,255,255,.5);
-    border-color: rgba(255,255,255,0.5);
+    color: rgba(255,255,255,0.7);
+    border-color: rgba(255,255,255,0.7);
 }
 
-
-/*Modifiquei*/
+/*Modificação do texto logo
+------------------------------ */
 .texto-logo {
     text-align: left;
     color: #fff;
@@ -46,6 +47,7 @@ nav.navbar-transparent {
     margin-top: 6px;
     margin-left: -30px;
 }
+
 .texto-logo p {
     display: inline;
     font-size: 0.8em;
@@ -125,6 +127,10 @@ nav.navbar-transparent {
     padding: 10px 0;
 }
 
+.conteudo-texto {
+    color: rgb(11, 2, 56);
+    padding: 30px 0 20px 0;
+}
 .rotacionar {
     -ms-transform: rotate(30deg);/* IE 9*/
     -webkit-transform: rotate(30deg); /*Chrome, Safari, Opera */
@@ -132,17 +138,43 @@ nav.navbar-transparent {
     transform: rotate(30deg);
 }
 
+#contato {
+    background: white;
+    padding-top: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#contato {
+    color: rgb(11, 2, 56);
+}
+#contato h2,h3 {
+    color: #7c25f8;
+}
+
+
+#contato h3 {
+    color: #9bf0e1; 
+}
+
+.albuns {
+    padding: 10px 0;
+}
+
 
 /* Rodape
 --------------------------*/
 footer {
     background: #000;
-    padding: 50px 0px 20px 0px;
+    padding: 30px 0px 20px 0px;
     position: relative;
 }
 
+footer span p{
+    color: grey;
+}
+
 footer h4 {
-    color: #919496;
+    color: grey;
     font-size: 0.8em;
     text-transform: uppercase;
 }
